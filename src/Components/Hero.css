@@ -1,0 +1,48 @@
+/* Hero Section */
+.background-image {
+    background-image: url('../assets/images/school.jpg'); /* Adjust the path relative to your CSS file */
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+/* Search Section */
+.Search {
+    margin-top: 20px; /* Adjust spacing from the Content */
+    text-align: center; /* Center aligns the Search section */
+}
+
+.Search input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 350px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.Search button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #13623c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
