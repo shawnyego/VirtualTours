@@ -1,0 +1,31 @@
+/* Adjust spacing and alignment for the Search component */
+.Search {
+    margin-top: 20px; /* Adjust spacing from the Content */
+    text-align: center; /* Center aligns the Search section */
+}
+
+/* Style the input field within the Search component */
+.Search .form-control {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 100%; /* Take full width within its container */
+    max-width: 350px; /* Limit maximum width for responsiveness */
+    margin-right: 10px;
+    background-color: white;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Style the search button within the Search component */
+.Search button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #13623c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Make button full width */
+    max-width: 120px; /* Limit maximum width for responsiveness */
+    margin-top: 10px; /* Adjust margin top for spacing */
+}

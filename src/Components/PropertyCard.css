@@ -1,0 +1,36 @@
+/* src/Components/PropertyCard.css */ 
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .property-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .property-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .property-card p {
+    margin: 5px 0;
+  }
+  
+  .property-card a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  

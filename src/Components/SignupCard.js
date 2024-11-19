@@ -60,7 +60,7 @@ const SignupCard = () => {
           <input
             type="text"
             className="input-field"
-            placeholder="First Name"
+            placeholder="Name"
             autoComplete="on"
             required
             value={firstName}

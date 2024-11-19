@@ -1,8 +1,10 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import Explore from "../Components/Explore";
-import Footer from "../Components/Footer ";
+import AboutUs from "../Components/AboutUs";
+import WhyUs from "../Components/WhyUs";
+import CallToAction from "../Components/CallToAction";
+
 
 const Home = () => {
   return (
@@ -10,7 +12,9 @@ const Home = () => {
       <div className="body">
       <Hero/>
       <Explore/>
-      <Footer/>
+      <AboutUs />
+      <WhyUs />
+      <CallToAction />
       </div>
     </div>
   );

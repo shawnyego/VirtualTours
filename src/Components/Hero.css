@@ -1,11 +1,11 @@
 /* Hero Section */
 .background-image {
-    background-image: url('../assets/images/school.jpg'); /* Adjust the path relative to your CSS file */
+    background-image: url('../assets/images/school.jpg');
     filter: brightness(50%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh; /* Height of imaage */
     width: 100%;
     position: relative;
 }
@@ -23,8 +23,8 @@
 
 /* Search Section */
 .Search {
-    margin-top: 20px; /* Adjust spacing from the Content */
-    text-align: center; /* Center aligns the Search section */
+    margin-top: 20px; /* For spacing */
+    text-align: center;  
 }
 
 .Search input {
@@ -34,7 +34,7 @@
     width: 350px;
     margin-right: 10px;
     background-color: white;
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px; 
 }
 
 .Search button {
@@ -46,3 +46,51 @@
     cursor: pointer;
     font-size: 16px;
 }
+
+.About, .WhyUs, .CallToAction {
+     margin-top: 30px;
+      padding: 20px; /* To look neat */
+       
+       border-radius: 10px; 
+       text-align: center;  
+    } 
+       .About h2, .WhyUs h2, .CallToAction h2 { 
+        font-size: 2em;
+         margin-bottom: 10px; 
+         color: #13623c;
+         
+        }
+          .About p, .WhyUs p, .CallToAction p 
+          {
+             font-size: 1.2em;
+              line-height: 1.5; 
+            } 
+            
+                 .CallToAction p 
+                 {
+                     font-size: 1.2em;
+                     }
+                       @media (max-width: 768px)
+                       {
+                         .Intro h1 
+                         {
+                             font-size: 2.5em;
+                             } 
+                             .Intro h4
+                              {
+                                 font-size: 1.2em;
+                                 } 
+                                 .About h2,
+                                  .WhyUs h2 
+                                  .CallToAction h2
+                                {
+                                     font-size: 1.5em;
+                                     }
+                                      .About p,
+                                       .WhyUs p,
+                                        .CallToAction p
+                                         {
+                                             font-size: 1em;
+                                             }
+                                              
+                                                 }

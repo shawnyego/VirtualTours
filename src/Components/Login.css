@@ -22,7 +22,7 @@ body {
 
 .sign-up-section {
     flex: 1;
-    background-color: #13623c; /* Green background for sign-up section */
+    background-color: #13623c; 
     display: flex;
     flex-direction: column;
     align-items: center;

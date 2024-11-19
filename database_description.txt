@@ -1,0 +1,10 @@
+The database is a MySql databse, to allow the databse to work in this website , change the following on the server.js file
+host: 'localhost',
+user: 'your user',
+password: 'your password',
+database: 'school_website_db'
+
+Once you have setup the database, run "node server.js" to have the database running
+Then, run "npm start" to start the website
+
+Some of the credential include(email:johndoe@example.com, password:password123)
